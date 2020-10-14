@@ -5,22 +5,23 @@ body {
 .space {
   width: 600px;
   height: 800px;
-  background-color: black;
+  /* background-color: black; */
   position: relative;
-  color: blue;
+  color: cornflowerblue;
   text-align: center;
   text-decoration: solid;
   font-weight: bolder;
   font-size: xx-large;
+  left: 33%;
   display: flex;
-  margin-left: 45%;
+  justify-content: center;
   align-items: center;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .spacecraft {
   width: 60px;
   height: 80px;
-  background-color: white;
+  background-color: #5754a8;
   position: absolute;
   border-radius: 70% 70% 60% 60%/70% 70%;
   border: solid #888 1px;
@@ -28,8 +29,10 @@ body {
 .platform {
   width: 85px;
   height: 15px;
-  background-color: blue;
+  background-color: #551e2141;
   position: absolute;
+  border-radius: 95%;
+  border: solid #e94b3cff 3px;
 }
 .galaxy-header {
   overflow: hidden;
