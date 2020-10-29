@@ -21,7 +21,7 @@ body {
   .space {
     margin: 0;
     margin-left: 10px !important;
-    font-size: large;
+    font-size: medium;
     position: fixed;
   }
 }
