@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     
     space.innerHTML = score;
-    document.querySelector(".space").innerHTML = "Your Score is " + score + " <br> , Refresh the page to Restart the game"
+    document.querySelector(".space").innerHTML = "Your Score is " + score + " <br> Refresh the page to Restart the game"
     
     clearInterval(upTimerId);
     clearInterval(downTimerId);
