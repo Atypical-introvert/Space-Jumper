@@ -5,23 +5,30 @@ body {
 .space {
   width: 600px;
   height: 800px;
-  /* background-color: black; */
+  background-color: black;
   position: relative;
-  color: cornflowerblue;
+  color: blue;
   text-align: center;
   text-decoration: solid;
   font-weight: bolder;
   font-size: xx-large;
-  left: 33%;
   display: flex;
-  justify-content: center;
+  margin-left: 38vw;
   align-items: center;
-  opacity: 0.9;
+  opacity: 0.8;
+}
+@media only screen and (max-width: 600px) {
+  .space {
+    margin: 0;
+    margin-left: 20px !important;
+    font-size: larger;
+    position: fixed;
+  }
 }
 .spacecraft {
   width: 60px;
   height: 80px;
-  background-color: #5754a8;
+  background-color: white;
   position: absolute;
   border-radius: 70% 70% 60% 60%/70% 70%;
   border: solid #888 1px;
@@ -29,10 +36,8 @@ body {
 .platform {
   width: 85px;
   height: 15px;
-  background-color: #551e2141;
+  background-color: blue;
   position: absolute;
-  border-radius: 95%;
-  border: solid #e94b3cff 3px;
 }
 .galaxy-header {
   overflow: hidden;

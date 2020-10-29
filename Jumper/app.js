@@ -53,7 +53,6 @@ document.addEventListener("DOMContentLoaded", () => {
           let firstPlatform = platforms[0].visual;
           firstPlatform.classList.remove("platform");
           platforms.shift();
-          document.getElementsByClassName(".space").innerHTML= "Your Score is" + score++;
           score++;
           playerScore();
           let newPlatform = new Platform(600);
@@ -104,7 +103,10 @@ document.addEventListener("DOMContentLoaded", () => {
     while (space.firstChild) {
       space.removeChild(space.firstChild);
     }
+    
     space.innerHTML = score;
+    document.querySelector(".space").innerHTML = "Your Score is " + score + " , Refresh the page to Restart the game"
+    
     clearInterval(upTimerId);
     clearInterval(downTimerId);
     clearInterval(leftTimeId);
@@ -167,7 +169,9 @@ document.addEventListener("DOMContentLoaded", () => {
   //attach a start button
   start();
   function playerScore() {
+    
     const playerScore = "Your Score is" + score++;
     const displayScore = document.querySelector(".score");
+    
   }
 });
