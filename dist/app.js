@@ -135,6 +135,9 @@ document.addEventListener("DOMContentLoaded", () => {
       } else moveRight();
     }, 30);
   }
+ document.querySelector(".left").addEventListener("click", moveLeft)
+ document.querySelector(".up").addEventListener("click", moveStraight)
+ document.querySelector(".right").addEventListener("click", moveRight)
 
   function moveRight() {
     if (isGoingLeft) {
@@ -156,6 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
     clearInterval(rightTimeId);
     clearInterval(leftTimeId);
   }
+ 
 
   function start() {
     if (!isGameOver) {

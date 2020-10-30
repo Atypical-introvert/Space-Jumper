@@ -60,9 +60,15 @@ a {
   font-weight: bolder;
 }
 .arrows {
-  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: fixed;
+  margin-top: 60vh;
+  margin-left: 10vw;
 }
-a {
+button {
+  margin-left: 2vw;
 }
 .platform {
   width: 85px;
