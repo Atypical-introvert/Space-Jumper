@@ -63,12 +63,12 @@ a {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  position: fixed;
+  padding: 5vw;
   margin-top: 60vh;
   margin-left: 10vw;
 }
 button {
-  margin-left: 2vw;
+  size: 6vh 16vw;
 }
 .platform {
   width: 85px;

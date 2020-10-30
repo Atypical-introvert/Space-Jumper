@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 30);
   }
  document.querySelector(".left").addEventListener("click", moveLeft)
- document.querySelector(".up").addEventListener("click", moveStraight)
+//  document.querySelector(".up").addEventListener("click", moveStraight)
  document.querySelector(".right").addEventListener("click", moveRight)
 
   function moveRight() {
