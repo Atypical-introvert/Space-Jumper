@@ -24,6 +24,15 @@ body {
     font-size: larger;
     position: fixed;
   }
+  a {
+    background-color: orangered;
+    margin: 1vh;
+    padding: 2vw;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 1rem;
+    font-weight: bolder;
+  }
 }
 .spacecraft {
   width: 60px;
