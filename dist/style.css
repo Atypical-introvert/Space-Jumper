@@ -7,7 +7,7 @@ body {
   height: 800px;
   background-color: black;
   position: relative;
-  color: blue;
+  color: orangered;
   text-align: center;
   text-decoration: solid;
   font-weight: bolder;
@@ -26,12 +26,18 @@ body {
   }
   a {
     background-color: orangered;
-    margin: 1vh;
-    padding: 2vw;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    border: 2px solid black;
-    border-radius: 1rem;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
     font-weight: bolder;
+    font-size: x-large;
+    border-radius: 1rem;
   }
 }
 .spacecraft {
@@ -52,12 +58,18 @@ body {
 }
 a {
   background-color: orangered;
-  margin: 1vh;
-  padding: 1vw;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
-  border: 2px solid black;
-  border-radius: 1rem;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
   font-weight: bolder;
+  font-size: x-large;
+  border-radius: 1rem;
 }
 .arrows {
   display: flex;
@@ -67,30 +79,7 @@ a {
   margin-top: 60vh;
   margin-left: 10vw;
 }
-.right {
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.left {
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+
 .platform {
   width: 85px;
   height: 15px;
