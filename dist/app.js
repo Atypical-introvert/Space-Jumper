@@ -121,18 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
       moveStraight();
     }
   }
-  function control(s){
-    if(s.click() == "Left"){
-      moveLeft()
-    }
-    else if(s.click()=="Right"){
-      moveRight()
-    }
-    else if(s.click()=="Up")
-    {
-      moveStraight()
-    }
-  }
+  
   function moveLeft() {
     if (isGoingRight) {
       clearInterval(rightTimeId);

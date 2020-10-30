@@ -33,6 +33,28 @@ body {
   border-radius: 70% 70% 60% 60%/70% 70%;
   border: solid #888 1px;
 }
+.selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 38vh;
+  margin-left: 8vw;
+}
+a {
+  background-color: orangered;
+  margin: 1vh;
+  padding: 1vw;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 1rem;
+  font-weight: bolder;
+}
+.arrows {
+  background-color: #fff;
+}
+a {
+}
 .platform {
   width: 85px;
   height: 15px;
