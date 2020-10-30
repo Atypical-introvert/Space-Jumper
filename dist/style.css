@@ -20,11 +20,11 @@ body {
 @media only screen and (max-width: 600px) {
   .space {
     margin: 0;
-
-    font-size: x-large;
+    font-size: large;
     position: fixed;
     text-align: center;
   }
+
   a {
     background-color: orangered;
     border: none;
