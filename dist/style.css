@@ -15,14 +15,16 @@ body {
   display: flex;
   margin-left: 38vw;
   align-items: center;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 @media only screen and (max-width: 600px) {
   .space {
-    margin: 0;
+    margin-left: 8vw;
     font-size: large;
     position: fixed;
+    font-display: center;
     text-align: center;
+    padding-left: 18vw;
   }
 
   a {
@@ -44,10 +46,11 @@ body {
 .spacecraft {
   width: 60px;
   height: 80px;
-  background-color: white;
+  background-image: url("moon.png");
+  border-radius: 50%;
+  background-size: cover;
   position: absolute;
-  border-radius: 70% 70% 60% 60%/70% 70%;
-  border: solid #888 1px;
+  /* opacity: 0.9; */
 }
 .selection {
   display: flex;
@@ -106,7 +109,7 @@ a {
   height: 100%;
   -webkit-perspective: 340px;
   perspective: 340px;
-  opacity: 0.9;
+  /* opacity: 1; */
   background-color: black;
   align-items: center;
 }
