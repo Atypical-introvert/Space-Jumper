@@ -1,3 +1,3 @@
 # Space Jumper
 
-[spacejumper.netlify.app]
+link to the website: spacejumper.netlify.app
