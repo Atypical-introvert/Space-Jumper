@@ -15,6 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let leftTimeId;
   let rightTimeId;
   let score = 0;
+  var button;
+  var text;
+
   function createSpaceCraft() {
     space.appendChild(spacecraft);
     spacecraft.classList.add("spacecraft");
@@ -96,22 +99,23 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }, 30);
   }
-
+  
   function gameOver() {
     console.log("Game Over");
     isGameOver = true;
     while (space.firstChild) {
       space.removeChild(space.firstChild);
     }
-    
-    space.innerHTML = score;
-    document.querySelector(".space").innerHTML = "      Your Score is " + score + " <br>        Restart the game by refreshing"
-    
+    space.innerHTML = "      Your Score is " + score +"";
+    space.innerHTML =space.innerHTML +" <br> <a href='' onClick='window.location.reload()'>Restart </a><br>"; 
     clearInterval(upTimerId);
     clearInterval(downTimerId);
     clearInterval(leftTimeId);
     clearInterval(rightTimeId);
+    
+    
   }
+  
   function control(e) {
     if (e.key === "ArrowLeft") {
       moveLeft();
