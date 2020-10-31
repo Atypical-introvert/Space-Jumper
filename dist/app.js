@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
     while (space.firstChild) {
       space.removeChild(space.firstChild);
     }
-    space.innerHTML = "      Your Score is " + score +"";
+    space.innerHTML = " <br> <br> <br><br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br>    Your Score is " + score +"<br> <br>";
     space.innerHTML =space.innerHTML +" <br> <a href='' onClick='window.location.reload()'>Restart </a><br>"; 
     clearInterval(upTimerId);
     clearInterval(downTimerId);
