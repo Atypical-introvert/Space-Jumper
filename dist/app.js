@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let score = 0;
   var button;
   var text;
-
+ 
   function createSpaceCraft() {
     space.appendChild(spacecraft);
     spacecraft.classList.add("spacecraft");
